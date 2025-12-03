@@ -17,8 +17,8 @@ from converter_faktur_coretax_v2_2 import (
 # STREAMLIT UI
 # ============================
 
-st.title("🚀 Converter Faktur CoreTax Online")
-st.write("Upload file Excel template CoreTax, dan aplikasi akan mengonversinya menjadi XML.")
+st.title("🚀 Converter Faktur CoreTax Online Punya Dilan")
+st.write("Upload file Excel template CoreTax disinihhh, dan aplikasi akan mengonversinya menjadi XML.")
 
 uploaded_file = st.file_uploader("Upload Excel (.xlsx)", type=["xlsx"])
 
@@ -60,3 +60,4 @@ if uploaded_file is not None:
 
     except Exception as e:
         st.error(f"Terjadi error saat memproses file: {e}")
+
